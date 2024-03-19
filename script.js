@@ -10,7 +10,8 @@ let outPut = document.querySelector("#para-1");
 
 //Addition function
 function addSum(num1, num2) {
-  let sum = num1 + num2;
+  let sum = (num1 + num2).toFixed(10);
+  //sum.toFixed(10);
   outPut.innerHTML = sum;
   console.log(sum);
   input1.value = "";
@@ -19,7 +20,8 @@ function addSum(num1, num2) {
 
 //Subtraction Function
 function subtractSum(num1, num2) {
-  let minus = num1 - num2;
+  let minus = (num1 - num2).toFixed(10);
+  //minus.toFixed(10);
   outPut.innerHTML = minus;
   console.log(minus);
   input1.value = "";
@@ -29,8 +31,9 @@ function subtractSum(num1, num2) {
 
 //Division Function
 function divideSum(num1, num2) {
-  let divide = num1 / num2;
-  outPut.innerHTML = divide.toFixed(10);
+  let divide = (num1 / num2).toFixed(10);
+  //divide.toFixed(10);
+  outPut.innerHTML = divide;
   console.log(divide);
   input1.value = "";
   input2.value = "";
@@ -38,7 +41,8 @@ function divideSum(num1, num2) {
 
 //Multiplication Function
 function multiplySum(num1, num2) {
-  let times = num1 * num2;
+  let times = (num1 * num2).toFixed(10);
+  //times.toFixed(10);
   outPut.innerHTML = times;
   console.log(times);
   input1.value = "";
