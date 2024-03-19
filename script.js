@@ -47,7 +47,10 @@ function multiplySum(num1, num2) {
 
 //Clear Output Function
 function clearOutput() {
-  location.reload();
+  //location.reload();
+  outPut.innerHTML = '';
+  input1.value = "";
+  input2.value = "";
 }
 
 // Add Event Listener to buttons
