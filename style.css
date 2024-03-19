@@ -22,10 +22,10 @@ body{
   padding: 25px 20px;
   display: flex;
   flex-direction: column;
-  gap:25px;
+  gap: 25px;
   justify-content: center;
   align-items: center;
-  width: 78%;
+  width: 80%;
   height: fit-content;
   border-radius: 10px;
   margin: 0 auto 0 auto;
